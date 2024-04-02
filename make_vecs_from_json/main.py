@@ -268,3 +268,9 @@ if __name__ == "__main__":
         f"{PROJECT}.json",
         is_public=True,
     )
+    update_from_scrapbox_json(
+        f"{PROJECT}.pickle",
+        f"{PROJECT}.json",
+        is_public=True,
+        block_size=100,
+    )
